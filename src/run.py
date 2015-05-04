@@ -21,32 +21,6 @@ def run(filename):
         print '{} / {} = inf'.format(str(r1), str(r2))
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 if __name__ == '__main__':
     assert len(sys.argv) > 1, 'Set inpul filename'
     filename = sys.argv[1]

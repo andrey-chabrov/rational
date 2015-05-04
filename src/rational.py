@@ -52,7 +52,8 @@ class Rational(object):
     def as_fraction(self):
         return (self.sign*(self.int*self.denom + self.num), self.denom)
 
-    def simplify(self, num_, denom_):
+    @staticmethod
+    def simplify(num_, denom_):
         num, denom = num_, denom_
         coef = 2
         while coef <= num:
